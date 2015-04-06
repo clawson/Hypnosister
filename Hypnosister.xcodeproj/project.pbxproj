@@ -13,6 +13,7 @@
 		32E304CF97D26FE3344DCC87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E30028F2FC26CFC689416C /* main.m */; };
 		32E306251A7248D37EE1AEEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E30F931357F879F8331307 /* AppDelegate.m */; };
 		32E30656330E4263E9F6563C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E3090BF6B3320D8BD09E94 /* LaunchScreen.xib */; };
+		32E3083F47309DEC5170048D /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E30A366E4692A3CC5497EC /* BNRHypnosisView.m */; };
 		32E30BCBC6014FEC7BC65BA3 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E3089F7E253E5253AE1583 /* HypnosisterTests.m */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +37,10 @@
 		32E304BA72C521081070D587 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		32E304EDBF843088582FFAEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		32E3089F7E253E5253AE1583 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		32E30A366E4692A3CC5497EC /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 		32E30BFAA4B60C6FA3D255D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32E30C98CC7A48BC16588FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		32E30D6EBCC2840CED9C95E6 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
 		32E30E739F62663D0445B008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		32E30F931357F879F8331307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +118,8 @@
 				32E3035AEAD78B9787B9C080 /* Main.storyboard */,
 				32E304BA72C521081070D587 /* ViewController.h */,
 				32E304EDBF843088582FFAEE /* ViewController.m */,
+				32E30D6EBCC2840CED9C95E6 /* BNRHypnosisView.h */,
+				32E30A366E4692A3CC5497EC /* BNRHypnosisView.m */,
 			);
 			path = Hypnosister;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				32E304CF97D26FE3344DCC87 /* main.m in Sources */,
 				32E306251A7248D37EE1AEEA /* AppDelegate.m in Sources */,
 				32E304798A0CFC952466877F /* ViewController.m in Sources */,
+				32E3083F47309DEC5170048D /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
